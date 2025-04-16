@@ -230,12 +230,12 @@ if file is not None:
     col1, col2, col3 = st.columns(3)
 
     with col1:
-        st.metric(label = "Mean Absolute Error",value = mae.round())
+        st.metric(label = "Mean Absolute Error",value = round(mae,2))
     with col2:
-        st.metric(label="Root Mean Square Error", value=rmse.round())
+        st.metric(label="Root Mean Square Error", value=round(rmse,2))
 
     with col3:
-        st.metric(label="Mean Absolute Percentage Error", value=mape.round())
+        st.metric(label="Mean Absolute Percentage Error", value=round(mape,2))
 
     forecast = st.button("Forecast using total data")
 
