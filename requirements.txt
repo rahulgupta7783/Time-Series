@@ -1,0 +1,10 @@
+Prophet
+Optuna
+pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+scipy
+plotly
+sklearn
