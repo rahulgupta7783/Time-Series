@@ -8,3 +8,4 @@ seaborn
 statsmodels
 scipy
 plotly
+scikit-learn
