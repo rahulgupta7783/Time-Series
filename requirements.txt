@@ -9,3 +9,4 @@ statsmodels
 scipy
 plotly
 scikit-learn
+streamlit-extras
