@@ -203,6 +203,16 @@ if file is not None:
     # Layout customization
     fig.update_layout(
         title='Prophet Model Actual vs Forecast (for 25 days)',
+        xaxis=dict(
+                title='Time',
+                showgrid=True,  # Enable vertical grid lines
+                gridcolor='royalblue'  # Optional: soft gridline color
+            ),
+            yaxis=dict(
+                title='Stock Price',
+                showgrid=True,  # Enable horizontal grid lines
+                gridcolor='royalblue'
+            ),
         xaxis_title='Date',
         yaxis_title='Value',
         template='plotly_white',
